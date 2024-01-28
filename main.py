@@ -11,7 +11,7 @@ class Face_recognition_system:
         self.root.title("Face Recognition Attendence System")
         
         #import images from the folder
-        img = Image.open(r"C:\Users\MIN\Documents\Face Recognition Attendence System\Main Page Images\Stanford.jpg")
+        img = Image.open(r"C:\Users\MIN\Documents\Face Recognition Attendence System\Main Page Images\uni.jpg")
         img=img.resize((425,110),Image.ANTIALIAS)
         self.photoimg=ImageTk.PhotoImage(img)
         
@@ -27,7 +27,7 @@ class Face_recognition_system:
         f_lbl.place(x=425,y=0,width=425,height=110)
         
         #Third Image
-        img3 = Image.open(r"C:\Users\MIN\Documents\Face Recognition Attendence System\Main Page Images\u.jpg")
+        img3 = Image.open(r"C:\Users\MIN\Documents\Face Recognition Attendence System\Main Page Images\uni2.jpg")
         img3=img3.resize((425,110),Image.ANTIALIAS)
         self.photoimg3=ImageTk.PhotoImage(img3)
         
